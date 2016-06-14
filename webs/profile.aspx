@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="home.aspx.cs" Inherits="webs_home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="profile.aspx.cs" Inherits="webs_profile" %>
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" >
-<head runat="server" >
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <!-- 最新編譯和最佳化的 CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -13,7 +13,7 @@
     <!-- 最新編譯和最佳化的 JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </head>
-<body  >
+<body>
     <style>
         html {
             height: 100%;
@@ -27,8 +27,8 @@
             background-size: cover;
         }
     </style>
-    <form id="form1" runat="server" >
-        <div class="row" >
+    <form id="form1" runat="server">
+    <div class="row" >
             <div class="col-md-3" >
                 <br />
                 <div class="col-md-12" style="background-color:dodgerblue">
@@ -51,7 +51,4 @@
         </div>
     </form>
 </body>
-
 </html>
-
-
